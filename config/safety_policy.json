@@ -1,0 +1,30 @@
+﻿{
+  "safety": {
+    "computer_control": false,
+    "autonomous_actions": false,
+    "self_modification": false,
+    "privilege_escalation": false,
+    "network_actions": false,
+    "emergency_stop": true,
+    "require_confirmation_for_actions": true
+  },
+  "resources": {
+    "max_ram_percent": 70,
+    "max_cpu_percent": 70,
+    "max_gpu_percent": 80,
+    "heavy_ai_on_battery": false
+  },
+  "thermal": {
+    "gpu_caution_c": 70,
+    "gpu_block_c": 80
+  },
+  "battery": {
+    "caution_percent": 30,
+    "block_heavy_ai_percent": 20
+  },
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 2050",
+    "dedicated_vram_gb": 4,
+    "system_ram_gb": 32
+  }
+}
