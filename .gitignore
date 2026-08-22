@@ -1,4 +1,9 @@
+@'
 .venv/
 __pycache__/
 *.pyc
-logs/
+
+# Local AI runtime and models
+ai/runtime/
+ai/models/
+'@ | Set-Content -Encoding utf8 .\.gitignore
